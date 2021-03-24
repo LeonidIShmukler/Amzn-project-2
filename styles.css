@@ -66,47 +66,40 @@ button[type='search'] {
     border-style: none;
     border-radius: 0px 15px 15px 0px;       
 }
-
-.filters div {
-    padding:10px 10px 10px 0px;
-   
-    
-}
 .filters {
     display: flex;
-    padding:10px 10px 10px 50px;
+    padding:5px 10px 5px 55px;
     align-items: center;
     font-weight: bolder;
     background-color: none;
 }
-
 .btn {
     display: flex;
     font-size: 16px; 
-    height: 50px;
-    padding: 17px 15px 15px 20px;
-    
-    border-style: none;
+    height: 45px;
+    padding: 5px 15px 5px 0px;
+    border: 2px solid #f2f2f2;
     border-radius: 25px 25px 25px 25px;
     background-color: none;
     margin-left: 20px;
     align-items: center;
-    
-    
+    background-color: white;  
 }
-
-.fa-money-bill-wave {
-    
-    
-   
-    
+.btn div{
+    height: 45px; 
+    width: 45px;
     border-style: none;
     border-radius: 25px 25px 25px 25px;
-    background-color: gray;
-    margin-right: 10px;
-    
-    
-    
+    background-color:#deebff;  
 }
+.btn i {
+    color: #0065fc ;
+    position: absolute;
+    padding-left: 12px;
+}
+.btn span {
+    padding-left: 10px;
+    padding-right: 1px;
+    font-weight: bolder;
 
-
+}
