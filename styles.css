@@ -118,11 +118,10 @@ button[type='search'] {
     padding: 13px 13x 13px 13px;
        
 }
-.allsections {
-    padding
-}
+
 .accomodations {
-        width: 60%;
+        width: 70%;
+        height: 700px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -133,28 +132,35 @@ button[type='search'] {
       
 .accomodations div {
         width: 33%;
-        height: 300px;
         margin-bottom: 2%;
-        padding: 20px 0px 20px 30px;
+        
 }
 
 .accomodations h3 {
     width: 100%;
-    padding: 0px 0px 20px 100px;
+    padding: 0px;
+    height: 20px;
 }    
-.allsections {
-    padding: 25px 50px 25px 50px;
+
+
+.card {
+    
+    height: 200px;
+    font-size: 8px;
+    padding: 1px;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: blueviolet;
 
 }
-.auberge {
-    height: 50px;
-    background-image: url('./images/Desktop/Accomodations/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
-    background-size: 300px 200px;
-    background-repeat: no-repeat;
-    background-position : 0% 0%;
-    padding: 20px 5px 40px 5px;
+.card img{
+    padding: 1px;
+    height: 100px;
+    width: auto;
     
-
     
-
+}
+.card div{
+    width: auto;
 }
