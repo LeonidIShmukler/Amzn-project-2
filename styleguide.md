@@ -1,5 +1,4 @@
-based in principles of material design
-reponsive
+
 accomodations/activity card clickable (no links)
 filter not functional must chaange appearance
 responsive to tablets
